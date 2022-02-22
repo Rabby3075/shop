@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Heading pannel */
+.heading{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: red; 
+    
+    
+}
+ .logoName{
+    color: white;
+    justify-content: flex-start;
+    font-family: 'Dancing Script', cursive;
+}
+
+.heading .login{
+    float: right;
+}
+/* Heading pannel End */
+
+/*  Menu bar */
+.menu-bar{
+    background-color: rgb(48, 148, 8);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+  
+}
+.menu-bar ul li{
+    width: 120px;
+   margin: 5px;
+   padding: 5px;
+    
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu-bar ul li a:hover{
+    text-decoration: underline;
+
+    background-color: #2bab0d
+}
+/* Menu bar end */
+/*Footer section */
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+
+}
+.contact .content p{
+
+    font-weight: 300;
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+
+
